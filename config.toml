@@ -1,0 +1,27 @@
+# SETUP
+baseurl = "/"
+DefaultContentLanguage = "zh"
+languageCode = 'zh-CN'
+publishdir = "public"
+canonifyUrls = "true"
+disableKinds = ["RSS","taxonomy","taxonomyTerm"] # disable hugo's content that we don't need...
+
+title = "明安里系列网站 - 欢迎来到架空科技城 | Minganli.line.pm" # page title -> see ./layouts/partials/head.html
+
+googleAnalytics = "" # if needed...
+
+[author]
+    name = "Diamochang"
+    email = "diamochang@yeah,net"
+
+[params]
+    description = "明安里系列网站是 Diamochang 半非连续性科幻文学系列“明安里系列”的官方网站。该作品是一次大胆的尝试，力求以更接近互联网生活的形式，让一幕幕反映现实与未来的场景“展现”在读者的电子设备荧屏前。" # page description -> see ./layouts/partials/head.html
+    images = [] #add images here as "img/name.ext" (points to s./static/img/) to populate the default og and twitter <meta> attributes -> see ./layouts/partials/head.html
+
+# these items will be rendered 1. into a tooltip in the navbar and 2. into the footer - consider that there's limited space when adding more items -> see ./layouts/partials
+[[params.social]]
+    title = "Twitter (X)"
+    url = "https://twitter.com/Diamochang" # add your twitter handle
+[[params.social]]
+    title = "Mastodon"
+    url = "https://嘟文.com/@diamochang" # add your linkedin profile URL
